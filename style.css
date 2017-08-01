@@ -1,0 +1,24 @@
+h1{
+    font-family: Princess Sofia;
+    text-align:center;
+    color:purple;
+}
+li{
+    font-family:Princess Sofia;
+    color:purple;
+    font-size:20px;
+}
+
+#img1{
+    margin:auto;
+    width:1350px;
+    
+}
+.paragraph{
+    color:purple;
+    font-size:45px;
+    position:relative;
+    bottom:300px;
+    text-align:left;
+    font-family:Princess Sofia;
+}
