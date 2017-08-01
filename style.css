@@ -18,7 +18,8 @@ li{
     color:purple;
     font-size:45px;
     position:relative;
-    bottom:300px;
+    bottom:600px;
     text-align:left;
     font-family:Princess Sofia;
+    max-width: 40%;
 }
