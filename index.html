@@ -2,45 +2,82 @@
 <html>
 
 <head>
-    <title>Lia's Dog Shop</title>
+    <title>Lia's Dog Shop(Not for Cats)</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jQuery.com/jquery-2.1.4.js"></script>
-    <script src="myscripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="myscript.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <h1>Lia's Dog Shop</h1>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#"> About</a></li>
-            </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Info</a></li>
-            </ul>
-
-        </div>
-    </nav>
+<body data-spy="scroll" data-target="#Scroll">
     
-<img id="img1" src="http://animalli.com/wp-content/uploads/2016/11/dogs-animals-jumping-images-1366x768.jpg">
+    <nav id="Scroll">
+            <ul>
+                <li><a href="#" class="Home-marker active" >Home</a></li>
+                <li><a href="#" class="Shop-marker">Shop</a></li>
+                <li><h1>Lia's Dog Shop <small style="color: white;">(Not For Cats)</small></h1></li>
+                <li><a href="#" class="About-marker">About</a></li>
+                <li><a href="#" class="Contact-marker">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="Home">
+            <img id="img1" src="http://animalli.com/wp-content/uploads/2016/11/dogs-animals-jumping-images-1366x768.jpg">
 
-<p class="paragraph">Anybody who doesn't know what soap tatste like never washed a dog</p>
+
+     <p id="paragraph">Anybody who doesn't know what soap taste like never washed a dog</p>
+<p id="paragraph2">(Please subscribe to us for more updates and also buy from our store)</p>
 
 
+    
+    <button id="modalButton" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Subscribe</button>
+    
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <div class="modal-body">
+              <h1 id="Heading1">Get our Updates</h1>
+               <p id="paragraph3">Connect with us</p> 
+               <i class="fa fa-facebook-official"></i>
+             <input type="text" placeholder="Email" id="Email">
+            <button id="Button3" class="btn btn-primary btn-md">Submit</button>
+          </div>
+         </div>
+        </div>
+      </div>
 
+    <button id="Button2" class="btn btn-success btn-lg">Buy</button>   
+                
+         </section>
+        
+        <section class="Shop">
+            <h1>Shop</h1>
+            <img id="img2" src="https://www.chelseadogs.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/l/cleo_the_caterpillar_and_dog.jpg"
+            
+            
+            
+        </section>
+        
+        <section class="About">
+            <h1>About</h1>
+            <img id="img3" src="https://topdogtips.com/wp-content/uploads/2015/01/Best-puppy-toys-for-dogs-that-chew-hard.jpg"
+        </section>
+        
+        <section class="Contact">
+            <h1>Contact</h1>
+            <img id="img4" src="https://www.speak2leads.com/wp-content/uploads/2016/06/Dog-Holding-Phone-1.jpg">
+            
+        </section>
 
-
-
-
-
+        
+        
 
 
 

@@ -1,25 +1,150 @@
-h1{
-    font-family: Princess Sofia;
-    text-align:center;
-    color:purple;
+body{
+    position:relative;
+    
 }
+h1{
+    font-family:Amatic SC;
+    text-align:center;
+    color:White;
+    font-weight:bold;
+    font-size:50px;
+}
+
 li{
-    font-family:Princess Sofia;
-    color:purple;
-    font-size:20px;
+    font-family:Amatic SC;
+    color:White;
+    font-size:25px;
+    font-weight:bold;
 }
 
 #img1{
     margin:auto;
     width:1350px;
+    margin-top: -250px;}
     
+#img2{
+    margin:auto;
+    width:1350px;
+    margin-top: -250px;
 }
-.paragraph{
+    
+#img3{
+    margin:auto;
+    width:1350px;
+    margin-top: -250px;
+}
+    
+#img4{
+    margin:auto;
+    width:1350px;
+    margin-top: -250px;
+}
+    
+    
+
+#paragraph{
     color:purple;
-    font-size:45px;
+    font-size:48px;
     position:relative;
     bottom:600px;
     text-align:left;
-    font-family:Princess Sofia;
+    font-family:Amatic SC;
     max-width: 40%;
+    left:90px;
 }
+
+#paragraph2{
+    font-size:30px;
+    font-family:Amatic SC;
+    text-align:center;
+    position:relative;
+    max-width:50%;
+    bottom:590px;
+    left:5px;
+}
+#paragraph3{
+    font-size:23px;
+    font-family:Amatic SC;
+    text-align:center;
+    
+}
+
+#modalButton{
+    bottom:568px;
+    position:relative;
+    right:450px;
+    
+}
+
+#Button2{
+    position:relative;
+    left:-300px;
+    bottom:568px;
+    color:white;
+    
+}
+
+#Button3{
+    position:relative;
+    left:10px;
+    
+}
+#Heading1{
+    font-family:Amatic SC;
+    text-align:center;
+    color:purple;
+    font-weight:bold;
+    font-size:40px;
+}
+input{
+    float:inherit;
+    
+}
+
+i{
+    float:right;
+    height:300px;
+    width:300px;
+}
+
+* {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: 'Amatic SC', cursive;
+            }
+            
+            nav {
+                
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                background-color: Purple;
+                z-index: 300;
+            }
+            nav ul li {
+                list-style: none;
+                display: inline-block;
+            }
+            nav ul li a {
+                display: block;
+                padding: 2px 35px;
+                text-decoration: none;
+                color:White;
+                transition: background-color 0.4s ease;
+            }
+            .active {
+                background-color:pink;
+                border-radius: 10px;
+            }
+            
+            section {
+                padding: 25% 0;
+                text-align: center;
+            }
+            
+            
+        
