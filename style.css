@@ -1,205 +1,217 @@
-body{
-    position:relative;
-    
-}
-h1{
-    font-family:Amatic SC;
-    text-align:center;
-    color:White;
-    font-weight:bold;
-    font-size:50px;
+body {
+    position: relative;
+
 }
 
-li{
-    font-family:Amatic SC;
-    color:White;
-    font-size:25px;
-    font-weight:bold;
+h1 {
+    font-family: Amatic SC;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+    font-size: 50px;
 }
 
-#img1{
-    margin:auto;
-    width:1350px;
-    margin-top: -250px;
-    
+li {
+    font-family: Amatic SC;
+    color: White;
+    font-size: 25px;
+    font-weight: bold;
 }
-    
-#img2{
-    
-    margin:auto;
-    width:1350px;
-    margin-top: -250px;
-}
-    
-#img3{
-    margin:auto;
-    width:1350px;
-    margin-top: -250px;
-}
-    
-#img4{
-    margin:auto;
-    width:1350px;
-    margin-top: -250px;
-}
-    
-    
 
-#paragraph{
-    color:purple;
-    font-size:48px;
-    position:relative;
-    bottom:600px;
-    text-align:left;
-    font-family:Amatic SC;
+#img1 {
+    margin: auto;
+    width: 1350px;
+    margin-top: -250px;
+
+}
+
+#img2 {
+
+    margin: auto;
+    width: 1350px;
+    margin-top: -250px;
+}
+
+#img3 {
+    margin: auto;
+    width: 1350px;
+    margin-top: -250px;
+}
+
+#img4 {
+    margin: auto;
+    width: 1350px;
+    margin-top: -250px;
+}
+
+
+
+#paragraph {
+    color: purple;
+    font-size: 48px;
+    position: relative;
+    bottom: 600px;
+    text-align: left;
+    font-family: Amatic SC;
     max-width: 40%;
-    left:90px;
+    left: 90px;
 }
 
-#paragraph2{
-    font-size:30px;
-    font-family:Amatic SC;
-    text-align:center;
-    position:relative;
-    max-width:50%;
-    bottom:590px;
-    left:5px;
-}
-#paragraph3{
-    font-size:23px;
-    font-family:Amatic SC;
-    text-align:center;
-    
-}
-#paragraph4{
-    font-size:45px;
-    font-family:Amatic SC;
-    bottom:630px;
-    right:420px;
-    text-align:center;
-    position:relative;
-    color:purple;
-    font-weight:bold;
-}
-#paragraph5{
-    font-size:39px;
-     font-family:Amatic SC;
-    bottom:627px;
-    right:420px;
-    text-align:center;
-    position:relative;
-    color:purple;
-}
-#paragraph6{
-   font-size:39px;
-     font-family:Amatic SC;
-    bottom:619px;
-    right:463px;
-    text-align:center;
-    position:relative;
-    color:purple;
+#paragraph2 {
+    font-size: 30px;
+    font-family: Amatic SC;
+    text-align: center;
+    position: relative;
+    max-width: 50%;
+    bottom: 590px;
+    left: 5px;
 }
 
-#paragraph7{
-      font-size:39px;
-     font-family:Amatic SC;
-    bottom:609px;
-    right:470px;
-    text-align:center;
-    position:relative;
-    color:purple;
-}
-#modalButton{
-    bottom:568px;
-    position:relative;
-    right:450px;
-    
+#paragraph3 {
+    font-size: 23px;
+    font-family: Amatic SC;
+    text-align: center;
+
 }
 
-#Button2{
-    position:relative;
-    left:-300px;
-    bottom:568px;
-    color:white;
-    
+#paragraph4 {
+    font-size: 45px;
+    font-family: Amatic SC;
+    bottom: 630px;
+    right: 420px;
+    text-align: center;
+    position: relative;
+    color: purple;
+    font-weight: bold;
 }
 
-#Button3{
-    position:relative;
-    left:15px;
-    
-}
-#Heading1{
-    font-family:Amatic SC;
-    text-align:center;
-    color:purple;
-    font-weight:bold;
-    font-size:40px;
-}
-input{
-    float:inherit;
-    
-    
+#paragraph5 {
+    font-size: 39px;
+    font-family: Amatic SC;
+    bottom: 627px;
+    right: 420px;
+    text-align: center;
+    position: relative;
+    color: purple;
 }
 
-#facebook{
-    float:right;
-    height:300px;
-    width:300px;
-    bottom:610px;
-    right:1090px;
-    text-align:center;
-    position:relative;
+#paragraph6 {
+    font-size: 39px;
+    font-family: Amatic SC;
+    bottom: 619px;
+    right: 463px;
+    text-align: center;
+    position: relative;
+    color: purple;
 }
-#twitter{
-    float:right;
-    height:300px;
-    width:300px;
-    right:300px;
-    bottom:610px;
-    right:820px;
-    text-align:center;
-    position:relative;
+
+#paragraph7 {
+    font-size: 39px;
+    font-family: Amatic SC;
+    bottom: 609px;
+    right: 470px;
+    text-align: center;
+    position: relative;
+    color: purple;
+}
+
+#modalButton {
+    bottom: 568px;
+    position: relative;
+    right: 450px;
+
+}
+
+#Button2 {
+    position: relative;
+    left: -300px;
+    bottom: 568px;
+    color: white;
+
+}
+
+#Button3 {
+    position: relative;
+    left: 2px;
+
+}
+
+#Heading1 {
+    font-family: Amatic SC;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+input {
+    float: inherit;
+
+
+}
+
+#facebook {
+    float: right;
+    height: 300px;
+    width: 300px;
+    bottom: 610px;
+    right: 1090px;
+    text-align: center;
+    position: relative;
+}
+
+#twitter {
+    float: right;
+    height: 300px;
+    width: 300px;
+    right: 300px;
+    bottom: 610px;
+    right: 820px;
+    text-align: center;
+    position: relative;
 }
 
 * {
-                margin: 0;
-                padding: 0;
-            }
-            body {
-                font-family: 'Amatic SC', cursive;
-            }
-            
-            nav {
-                
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                text-align: center;
-                background-color: Purple;
-                z-index: 300;
-            }
-            nav ul li {
-                list-style: none;
-                display: inline-block;
-            }
-            nav ul li a {
-                display: block;
-                padding: 2px 35px;
-                text-decoration: none;
-                color:White;
-                transition: background-color 0.4s ease;
-            }
-            .active {
-                background-color:pink;
-                border-radius: 10px;
-            }
-            
-            section {
-                padding: 25% 0;
-                text-align: center;
-            }
-            
-            
-        
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    padding-top: auto;
+}
+
+nav {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: Purple;
+    z-index: 300;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 2px 35px;
+    text-decoration: none;
+    color: White;
+    transition: background-color 0.4s ease;
+}
+
+.active {
+    background-color: pink;
+    border-radius: 10px;
+}
+
+section {
+    padding: 25% 0;
+    text-align: center;
+}
+
