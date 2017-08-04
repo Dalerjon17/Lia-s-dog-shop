@@ -20,9 +20,12 @@ li{
 #img1{
     margin:auto;
     width:1350px;
-    margin-top: -250px;}
+    margin-top: -250px;
+    
+}
     
 #img2{
+    
     margin:auto;
     width:1350px;
     margin-top: -250px;
@@ -68,7 +71,44 @@ li{
     text-align:center;
     
 }
+#paragraph4{
+    font-size:45px;
+    font-family:Amatic SC;
+    bottom:630px;
+    right:420px;
+    text-align:center;
+    position:relative;
+    color:purple;
+    font-weight:bold;
+}
+#paragraph5{
+    font-size:39px;
+     font-family:Amatic SC;
+    bottom:627px;
+    right:420px;
+    text-align:center;
+    position:relative;
+    color:purple;
+}
+#paragraph6{
+   font-size:39px;
+     font-family:Amatic SC;
+    bottom:619px;
+    right:463px;
+    text-align:center;
+    position:relative;
+    color:purple;
+}
 
+#paragraph7{
+      font-size:39px;
+     font-family:Amatic SC;
+    bottom:609px;
+    right:470px;
+    text-align:center;
+    position:relative;
+    color:purple;
+}
 #modalButton{
     bottom:568px;
     position:relative;
@@ -86,7 +126,7 @@ li{
 
 #Button3{
     position:relative;
-    left:10px;
+    left:15px;
     
 }
 #Heading1{
@@ -99,12 +139,27 @@ li{
 input{
     float:inherit;
     
+    
 }
 
-i{
+#facebook{
     float:right;
     height:300px;
     width:300px;
+    bottom:610px;
+    right:1090px;
+    text-align:center;
+    position:relative;
+}
+#twitter{
+    float:right;
+    height:300px;
+    width:300px;
+    right:300px;
+    bottom:610px;
+    right:820px;
+    text-align:center;
+    position:relative;
 }
 
 * {
