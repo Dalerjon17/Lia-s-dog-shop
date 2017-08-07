@@ -10,6 +10,13 @@ h1 {
     font-weight: bold;
     font-size: 50px;
 }
+#Heading2{
+    font-family: Amatic SC;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 50px;
+}
 
 li {
     font-family: Amatic SC;
@@ -20,8 +27,8 @@ li {
 
 #img1 {
     margin: auto;
-    width: 1350px;
-    margin-top: -250px;
+    width: 1370px;
+    
 
 }
 
@@ -41,7 +48,9 @@ li {
 #img4 {
     margin: auto;
     width: 1350px;
-    margin-top: -250px;
+    margin-top: -240px;
+    
+    
 }
 
 
@@ -195,11 +204,13 @@ nav {
 nav ul li {
     list-style: none;
     display: inline-block;
+    margin-top: -19px;
+    margin-bottom:-10px;
 }
 
 nav ul li a {
     display: block;
-    padding: 2px 35px;
+    padding: 5px 70px;
     text-decoration: none;
     color: White;
     transition: background-color 0.4s ease;
@@ -207,11 +218,17 @@ nav ul li a {
 
 .active {
     background-color: pink;
-    border-radius: 10px;
+    border-radius: 25px;
+    
 }
 
 section {
-    padding: 25% 0;
+    padding: 4% 0;
     text-align: center;
 }
+
+
+
+
+
 
