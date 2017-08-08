@@ -48,7 +48,7 @@ li {
 #img4 {
     margin: auto;
     width: 1350px;
-    margin-top: -240px;
+    margin-top: -160px;
     
     
 }
@@ -63,7 +63,7 @@ li {
     text-align: left;
     font-family: Amatic SC;
     max-width: 40%;
-    left: 90px;
+    left: 70px;
 }
 
 #paragraph2 {
@@ -71,9 +71,9 @@ li {
     font-family: Amatic SC;
     text-align: center;
     position: relative;
-    max-width: 50%;
+    max-width: 35%;
     bottom: 590px;
-    left: 5px;
+    left: 45px;
 }
 
 #paragraph3 {
@@ -127,13 +127,13 @@ li {
 #modalButton {
     bottom: 568px;
     position: relative;
-    right: 450px;
+    right: 330px;
 
 }
 
 #Button2 {
     position: relative;
-    left: -300px;
+    left: -250px;
     bottom: 568px;
     color: white;
 
@@ -188,6 +188,7 @@ input {
 body {
     font-family: 'Amatic SC', cursive;
     padding-top: auto;
+    position: relative;
 }
 
 nav {
@@ -216,19 +217,20 @@ nav ul li a {
     transition: background-color 0.4s ease;
 }
 
-.active {
-    background-color: pink;
-    border-radius: 25px;
+
     
-}
+
 
 section {
-    padding: 4% 0;
+    padding: 6% 0;
     text-align: center;
 }
 
+#Dogs{
+    text-align:center;
+    }
 
-
-
-
-
+#Text{
+    color:black ;
+    
+}

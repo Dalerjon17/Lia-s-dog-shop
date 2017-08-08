@@ -1,22 +1,15 @@
 $(document).ready(function() {
-    var navLinks = $('nav ul li a'),
-        navH = $('nav').height(),
-        section = $('section'),
-        documentEl = $(document);
+    $('body').scrollspy({target: ".navbar", offset: 50});
+    $('ul li').click(function(){
 
-    documentEl.on('scroll', function() {
-        var currentScrollPos = documentEl.scrollTop();
+    var clicked_tab = $(this);
 
-        section.each(function() {
-            var self = $(this);
-            if (self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight())) {
-                var targetClass = '.' + self.attr('class') + '-marker';
-                navLinks.removeClass('active');
-                $(targetClass).addClass('active');
-            }
-        });
-
-    });
+    clicked_tab.addClass('active');
+    
+    
+    clicked_tab.parent().children('li').not(clicked_tab).removeClass('active');
+    
+});
 
 
 });
