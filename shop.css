@@ -2,7 +2,6 @@ body {
     position: relative;
     font-family: 'Amatic SC', cursive;
     padding-top: auto;
-
 }
 
 h1 {
@@ -12,6 +11,53 @@ h1 {
     font-weight: bold;
     font-size: 50px;
 }
+
+#Heading3{
+  color:black;
+}
+#paragraph8{
+  color:black;
+}
+
+#myCarousel{
+  top:10px;
+}
+
+#img5{
+  height:50%;
+  width:50%;
+}
+
+#img6{
+  height:50%;
+  width:50%;
+}
+
+#img7{
+  height:50%;
+  width:50%;
+}
+
+
+p{
+  color:black;
+  font-size:130%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Add a black background color to the top navigation */

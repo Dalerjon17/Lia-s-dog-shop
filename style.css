@@ -27,7 +27,8 @@ li {
 
 #img1 {
     margin: auto;
-    width: 1370px;
+    width: 1350px;
+    margin-bottom: auto;
     
 
 }
@@ -40,9 +41,10 @@ li {
 }
 
 #img3 {
-    margin: auto;
-    width: 1350px;
-    margin-top: -250px;
+    float:left;
+    height: 800px;
+    width: 550px;
+    margin-top: -200px;
 }
 
 #img4 {
@@ -58,8 +60,8 @@ li {
 #paragraph {
     color: purple;
     font-size: 48px;
-    position: relative;
-    bottom: 600px;
+    position: absolute;
+    bottom: 350px;
     text-align: left;
     font-family: Amatic SC;
     max-width: 40%;
@@ -70,10 +72,11 @@ li {
     font-size: 30px;
     font-family: Amatic SC;
     text-align: center;
-    position: relative;
+    position: absolute;
     max-width: 35%;
-    bottom: 590px;
-    left: 45px;
+    bottom: 250px;
+    left: 55px;
+    color:purple;
 }
 
 #paragraph3 {
@@ -86,10 +89,10 @@ li {
 #paragraph4 {
     font-size: 45px;
     font-family: Amatic SC;
-    bottom: 630px;
-    right: 420px;
+    bottom: 890px;
+    left: 57px;
     text-align: center;
-    position: relative;
+    position: absolute;
     color: purple;
     font-weight: bold;
 }
@@ -124,8 +127,9 @@ li {
     color: purple;
 }
 
+
 #modalButton {
-    bottom: 568px;
+    bottom: 150px;
     position: relative;
     right: 330px;
 
@@ -134,7 +138,7 @@ li {
 #Button2 {
     position: relative;
     left: -250px;
-    bottom: 568px;
+    bottom: 150px;
     color: white;
 
 }
@@ -222,15 +226,28 @@ nav ul li a {
 
 
 section {
-    padding: 6% 0;
+    padding: 5% 0;
     text-align: center;
 }
 
 #Dogs{
-    text-align:center;
-    }
-
-#Text{
-    color:black ;
+    text-align: center;
+    margin-top: -150px;
+    height: 45px;
+    width: 100px;
+    font-size:30px;
     
+    
+    
+}
+#Text{
+    color:black;
+    font-weight:bold;
+}
+#quote{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    margin-top:-120;
+    font-weight:bold;
 }
