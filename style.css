@@ -10,7 +10,8 @@ h1 {
     font-weight: bold;
     font-size: 50px;
 }
-#Heading2{
+
+#Heading2 {
     font-family: Amatic SC;
     text-align: center;
     color: purple;
@@ -28,7 +29,7 @@ li {
 #img1 {
     margin: auto;
     width: 1350px;
-    
+
 
 }
 
@@ -40,18 +41,18 @@ li {
 }
 
 #img3 {
-    float:left;
+    float: left;
     height: 750px;
     width: 550px;
-    border-radius:50px
+    border-radius: 50px
 }
 
 #img4 {
     margin: auto;
-    width:1350px;
-    
-    
-    
+    width: 1350px;
+
+
+
 }
 
 
@@ -65,7 +66,7 @@ li {
     font-family: Amatic SC;
     max-width: 40%;
     left: 70px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 #paragraph2 {
@@ -76,7 +77,7 @@ li {
     max-width: 35%;
     bottom: 240px;
     left: 40px;
-    color:purple;
+    color: purple;
 }
 
 #paragraph3 {
@@ -202,7 +203,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin-top: -19px;
-    margin-bottom:-10px;
+    margin-bottom: -10px;
 }
 
 nav ul li a {
@@ -214,7 +215,7 @@ nav ul li a {
 }
 
 
-    
+
 
 
 section {
@@ -222,35 +223,39 @@ section {
     text-align: center;
 }
 
-#Dogs{
+#Dogs {
     text-align: center;
     margin-top: -150px;
     height: 45px;
     width: 100px;
-    font-size:30px;
-    
-    
-    
+    font-size: 30px;
+
+
+
 }
-#Text{
-    color:purple;
-    
+
+#Text {
+    color: purple;
+
 }
-#quote{
-    text-align:center;
-    color:white;
-    font-size:30px;
-    margin-top:-120;
-    font-weight:bold;
+
+#quote {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: -120;
+    font-weight: bold;
 }
-#Lia{
+
+#Lia {
     height: 800px;
     font-size: 35px;
     color: purple;
-    
-    
+
+
 }
-#Button24{
+
+#Button24 {
     position: relative;
     left: -390px;
     bottom: 520px;
@@ -258,28 +263,22 @@ section {
     height: 80px;
     width: 150px;
     font-size: 45px;
-    
+
 }
-#Buy1{
+
+#Buy1 {
     text-align: center;
     font-size: 40px;
     position: relative;
     bottom: 550px;
     left: 90px;
     color: purple;
-    font-weight:bold;
+    font-weight: bold;
     width: 400px;
-   
+
 }
 
 
 a:hover {
-    color:pink;
+    color: pink;
 }
-
-
-
-
-
-
-

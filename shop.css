@@ -1,33 +1,34 @@
 body {
-    position: relative;
-    font-family: 'Amatic SC', cursive;
-    padding-top: auto;
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  padding-top: auto;
 }
 
 h1 {
-    font-family: Amatic SC;
-    text-align: center;
-    color: purple;
-    font-weight: bold;
-    font-size: 50px;
+  font-family: Amatic SC;
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+  font-size: 50px;
 }
 
-#Heading3{
-  color:black;
-}
-#paragraph8{
-  color:black;
+#Heading3 {
+  color: black;
 }
 
-#myCarousel{
-  top:10px;
+#paragraph8 {
+  color: black;
+}
+
+#myCarousel {
+  top: 10px;
 }
 
 
 
-p{
-  color:black;
-  font-size:130%;
+p {
+  color: black;
+  font-size: 130%;
 }
 
 
@@ -62,40 +63,46 @@ p{
 
 
 /* Add a black background color to the top navigation */
+
 .topnav {
-    background-color: purple;
-    overflow: hidden;
+  background-color: purple;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
+
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
+
 .topnav a:hover {
-    background-color: pink;
-    color: purple;
+  background-color: pink;
+  color: purple;
 }
 
 /* Add a color to the active/current link */
+
 .topnav a.active {
-    background-color: #4CAF50;
-    color: red;
+  background-color: #4CAF50;
+  color: red;
 }
 
 .topnav .icon {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -103,7 +110,9 @@ p{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
